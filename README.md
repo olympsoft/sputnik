@@ -16,7 +16,7 @@ php artisan db:seed --class=PricesSeeder
 * [App\\Services\\CurrencyService.php](https://github.com/olympsoft/sputnik/blob/master/app/Services/CurrencyService.php)
 * [App\\Models\\Price.php](https://github.com/olympsoft/sputnik/blob/master/app/Models/Price.php)
 * [Database\\Factories\\PriceFactory.php](https://github.com/olympsoft/sputnik/blob/master/database/factories/PriceFactory.php)
-* [Database\\Seeders\\DatabaseSeeder.php](https://github.com/olympsoft/sputnik/blob/master/database/seeders/DatabaseSeeder.php)
+* [Database\\Seeders\\PricesSeeder.php](https://github.com/olympsoft/sputnik/blob/master/database/seeders/PricesSeeder.php)
 * [database/migrations/2025_06_17_141412_create_prices_table.php](https://github.com/olympsoft/sputnik/blob/master/database/migrations/2025_06_17_141412_create_prices_table.php)
 
 ## Примеры работы приложения

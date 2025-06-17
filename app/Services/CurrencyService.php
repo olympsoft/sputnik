@@ -16,7 +16,7 @@ class CurrencyService
         'EUR' => '€%s'
     ];
 
-    public static function convert($price, ?string $currency = null)
+    public static function convert($price, string $currency)
     {
         $value = floatval($price) / static::$rates[$currency];
 

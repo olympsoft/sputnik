@@ -8,7 +8,7 @@ php artisan migrate
 php artisan db:seed --class=PricesSeeder
 ```
 
-## Комментарии к коду
+## Список файлов
 
 * [routes/api.php](https://github.com/olympsoft/sputnik/blob/master/routes/api.php)
 * [App\\Http\\Controllers\\PriceController.php](https://github.com/olympsoft/sputnik/blob/master/app/Http/Controllers/PriceController.php)
@@ -21,10 +21,18 @@ php artisan db:seed --class=PricesSeeder
 
 ## Примеры работы приложения
 
+### Без параметров / RUR
+
  ![Без параметров](https://github.com/olympsoft/sputnik/raw/master/example1.png)
+
+### USD
 
  ![currency=USD](https://github.com/olympsoft/sputnik/raw/master/example2.png)
 
+### EUR
+
  ![currency=EUR](https://github.com/olympsoft/sputnik/raw/master/example3.png)
+
+### Некорректная валюта
 
  ![Некорректная валюта](https://github.com/olympsoft/sputnik/raw/master/example4.png)
